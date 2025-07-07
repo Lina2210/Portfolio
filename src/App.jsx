@@ -5,7 +5,7 @@ import './App.css'
 import NavBar from './components/NavBar/NavBar'
 import Posts from './components/Posts/Posts'
 import About from './components/About/About'
-import Proyects from './components/Proyects/Proyects'
+import Projects from './components/Projects/Projects'
 import Contact from './components/Contact/Contact'
 import { Routes, Route } from 'react-router-dom'
 
@@ -18,7 +18,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Posts />} />
         <Route path='/about' element={<About />} />
-        <Route path='/proyects' element={<Proyects />} />
+        <Route path='/projects' element={<Projects />} />
         <Route path='/contact' element={<Contact />} />
         
       </Routes>

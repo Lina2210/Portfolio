@@ -107,7 +107,7 @@ function NavBar() {
                 tabIndex={-1}
               >
                 <i className="fa fa-users me-2 fs-6"></i>
-                <Link to="/proyects" className="d-none d-md-block">Proyects</Link>
+                <Link to="/projects" className="d-none d-md-block">Projects</Link>
               </button>
             </li>
             <li className="nav-item" role="presentation">
